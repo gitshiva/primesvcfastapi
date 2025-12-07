@@ -8,7 +8,9 @@ on:
 
 jobs:
   build:
-    runs-on: python:3.11-slim
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.11-slim
 
     steps:
     - uses: actions/checkout@v4
