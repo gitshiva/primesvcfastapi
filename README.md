@@ -8,4 +8,4 @@ podman run -d --name primesvcfastapi -p 8000:8000 primesvcfastapi
 ## How to test
 http://localhost:8000/prime/171
 
-#:-)
+# Everything should work :-)
