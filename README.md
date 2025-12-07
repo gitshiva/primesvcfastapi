@@ -2,10 +2,10 @@
 Microservice/API that will return if a given number is prime or not.
 
 ## How to run
-podman build -t primesvcfastapi .
+podman build -t primesvcfastapi .\n
 podman run -d --name primesvcfastapi -p 8000:8000 primesvcfastapi
 
 ## How to test
 http://localhost:8000/prime/171
 
-# Everything should work :-)
+## Everything should work :-)
