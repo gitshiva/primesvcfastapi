@@ -2,7 +2,7 @@
 Microservice/API that will return if a given number is prime or not.
 
 ## How to run
-podman build -t primesvcfastapi .\n
+podman build -t primesvcfastapi .  
 podman run -d --name primesvcfastapi -p 8000:8000 primesvcfastapi
 
 ## How to test
